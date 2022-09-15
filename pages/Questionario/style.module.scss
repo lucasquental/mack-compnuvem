@@ -1,0 +1,15 @@
+.popbuttonQuest{
+    justify-content: center;
+     margin:0 auto;
+      background: rgb(46, 46, 46);
+     padding: 10px;
+      border-radius: 5px;
+       font-family: Arial;
+       margin-top: 20px;
+       color:white;
+   transition: filter 0.2s;
+   margin-bottom: 232px;
+       &:hover{
+        filter: brightness(0.8);
+       }
+}
