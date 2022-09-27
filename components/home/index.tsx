@@ -20,6 +20,7 @@ export function HomePage(){
                     </div>
                 </div>
             </header>
+
             <section className="py-5" id="features">
                 <div className="container px-5 my-5">
                     <div className=" gx-5">
@@ -50,6 +51,7 @@ export function HomePage(){
                     </div>
                 </div>
             </section>
+
             <div className="py-5 bg-light">
                 <div className="container px-5 my-5">
                     <div className="row gx-5 justify-content-center">
@@ -68,6 +70,20 @@ export function HomePage(){
                     </div>
                 </div>
             </div>
+
+            <section className="py-5" id="features">
+                <div className="container px-5 my-5">
+                    <div className="row gx-5">
+                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="/cloudmodels.png" alt="..." /></div>
+                        <div className="col-lg-6">
+                            <h2 className="fw-bolder">Modelos de Computação em Nuvem</h2>
+                            <p className="fs-5 mb-4">Nós temos 3 principais modelos de computação em nuvem, que são distribuídos entre IaaS, PaaS e SaaS.</p>
+                            <p className="fs-5 mb-4"> Tendo na base o IaaS, que é a base para criação dos modelos. O PaaS que é um nível onde você não tem mais acesso direto ao IaaS porém ainda pode desenvolver um SaaS. E o SaaS que é o produto final, distribuído para qualquer usuário, no qual o mesmo não possui acesso aos níveis inferiores. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="py-5">
                 <div className="container px-5 my-5">
                     <div className="row gx-5 justify-content-center">
