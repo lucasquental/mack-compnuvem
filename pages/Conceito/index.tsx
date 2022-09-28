@@ -13,7 +13,7 @@ export default function About(){
                                 <h1 className="fw-bolder mb-3">O que é a computação em nuvem?</h1>
                                 <p className="lead fw-normal text-muted mb-4">
                                     A computação em nuvem é um conjunto de tecnologias computacionais. Incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência</p>
-                                <a className="btn btn-primary btn-lg" href="#scroll-target">Leia mais a respeito</a>
+                                <a className="btn btn-primary btn-lg border border-dark" href="#scroll-target">Leia mais a respeito</a>
                             </div>
                         </div>
                     </div>

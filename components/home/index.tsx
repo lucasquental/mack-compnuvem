@@ -11,7 +11,7 @@ export function HomePage(){
                                 <h1 className="display-1 fw-bolder mb-2" style={{color:'white'}}>Cloud Computing</h1>
                                 <p className="lead fw-normal mb-4"style={{fontSize:'30px',color:'white'}}>O que é a computação em nuvem, quais os modelos de computação em nuvem e como usá-los?</p>
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Saber Mais</a>
+                                    <a className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="#features">Saber Mais</a>
                                 
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ export function HomePage(){
                                     
                                 </div>
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
-                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="/Conceito">Sobre a Computação em Nuvem</a>
+                                    <a className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="/Conceito">Sobre a Computação em Nuvem</a>
                                    
                                 </div>
                             </div>

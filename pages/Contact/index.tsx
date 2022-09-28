@@ -41,7 +41,7 @@ export default function Contact(){
                                         <div className="invalid-feedback" data-sb-feedback="message:required">É necessário uma mensagem.</div>
                                     </div>
                                
-                                    <div className="d-grid"><button className="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button></div>
+                                    <div className="d-grid"><button className="btn btn-primary btn-lg border border-dark" id="submitButton" type="submit">Enviar</button></div>
                                     <div className="d-none" id="submitSuccessMessage">
                                         <div className="text-center mb-3">
                                             <div className="fw-bolder">Formulário preenchido com sucesso!</div>
