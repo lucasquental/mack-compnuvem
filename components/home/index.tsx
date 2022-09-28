@@ -78,7 +78,7 @@ export function HomePage(){
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Modelos de Computação em Nuvem</h2>
                             <p className="fs-5 mb-4">Nós temos 3 principais modelos de computação em nuvem, que são distribuídos entre IaaS, PaaS e SaaS.</p>
-                            <p className="fs-5 mb-4"> Tendo na base o IaaS, que é a base para criação dos modelos. O PaaS que é um nível onde você não tem mais acesso direto ao IaaS porém ainda pode desenvolver um SaaS. E o SaaS que é o produto final, distribuído para qualquer usuário, no qual o mesmo não possui acesso aos níveis inferiores. </p>
+                            <p className="fs-5 mb-4">Tendo na base o IaaS, que é a base para criação dos modelos. O PaaS que é um nível onde você não tem mais acesso direto ao IaaS porém ainda pode desenvolver um SaaS. E o SaaS que é o produto final, distribuído para qualquer usuário, no qual o mesmo não possui acesso aos níveis inferiores. </p>
                         </div>
                     </div>
                 </div>
