@@ -10,9 +10,9 @@ export default function About(){
                     <div className="row justify-content-center">
                         <div className="col-lg-8 col-xxl-6">
                             <div className="text-center my-5">
-                                <h1 className="fw-bolder mb-3">O que é a computação em nuvem?</h1>
+                                <h1 className="fw-bolder mb-3">O Recurso Educacional</h1>
                                 <p className="lead fw-normal text-muted mb-4">
-                                    A computação em nuvem é um conjunto de tecnologias computacionais. Incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência</p>
+                                    Nesta página vamos falar um pouco sobre o Recurso Educacional aqui implementado</p>
                                 <a className="btn btn-primary btn-lg" href="#scroll-target">Leia mais a respeito</a>
                             </div>
                         </div>
