@@ -10,8 +10,8 @@ export default function About(){
                     <div className="row justify-content-center">
                         <div className="col-lg-8 col-xxl-6">
                             <div className="text-center my-5">
-                                <h1 className="fw-bolder mb-3">O Objeto de Aprendizagem/Recurso Educacional Digital</h1>
-                                <p className="lead fw-normal text-muted mb-4">Nesta página vamos falar um pouco sobre o Recurso Educacional que foi implementado neste site.</p>
+                                <h1 className="fw-bolder mb-3">O Objeto de Aprendizagem / Recurso Educacional Digital</h1>
+                                <p className="lead fw-normal text-muted mb-4">Nesta página vamos falar um pouco sobre o Objeto de Aprendizagem que foi implementado neste site.</p>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ export default function About(){
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Recursos</h2>
-                            <p className="lead fw-normal text-muted mb-0">Neste Objeto de Aprendizagem nós temos vários recursos para auxiliar o usuário a entender melhor o conteúdo como textos, videos e testes.</p>
+                            <p className="lead fw-normal text-muted mb-0">Neste Objeto de Aprendizagem nós temos vários recursos para auxiliar o usuário a entender melhor o conteúdo como textos explicativos sobre os diferentes tópicos abordados, videos sobre alguns casos de uso da computação em nuvem e testes para avaliar o seu conhecimento sobre o que foi apresentado no site.</p>
                         </div>
                     </div>
                 </div>
@@ -46,10 +46,10 @@ export default function About(){
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="/rede.png" style={{width:'300px'}} alt="..." /></div>
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src="" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder">Amplo Acesso a Rede</h2>
-                            <p className="lead fw-normal text-muted mb-0">Os recursos estão disponíveis na rede e são acessados ​​por meio de mecanismos padrão que promovem o uso por plataformas heterogêneas de clientes finos ou grossos (por exemplo, telefones celulares, tablets, laptops e estações de trabalho).</p>
+                            <h2 className="fw-bolder">Publico Destinado</h2>
+                            <p className="lead fw-normal text-muted mb-0"></p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ export default function About(){
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6 order-first order-lg-last">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="/caixa.png" style={{width:'300px'}} alt="..." /></div>
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src="" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Conjunto de Recursos</h2>
                             <p className="lead fw-normal text-muted mb-0">Os recursos de computação do provedor são agrupados para atender a vários consumidores usando um modelo multilocatário, com diferentes recursos físicos e virtuais atribuídos e re-atribuídos dinamicamente de acordo com a demanda do consumidor. Há uma sensação de independência de localização em que o cliente geralmente não tem controle ou conhecimento sobre a localização exata dos recursos fornecidos, mas pode especificar a localização em um nível mais alto de abstração (por exemplo, país, estado ou datacenter). Exemplos de recursos incluem armazenamento, processamento, memória e largura de banda de rede.</p>
