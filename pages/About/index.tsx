@@ -10,10 +10,8 @@ export default function About(){
                     <div className="row justify-content-center">
                         <div className="col-lg-8 col-xxl-6">
                             <div className="text-center my-5">
-                                <h1 className="fw-bolder mb-3">O Recurso Educacional</h1>
-                                <p className="lead fw-normal text-muted mb-4">
-                                    Nesta página vamos falar um pouco sobre o Recurso Educacional aqui implementado</p>
-                                <a className="btn btn-primary btn-lg" href="#scroll-target">Leia mais a respeito</a>
+                                <h1 className="fw-bolder mb-3">O Objeto de Aprendizagem/Recurso Educacional Digital</h1>
+                                <p className="lead fw-normal text-muted mb-4">Nesta página vamos falar um pouco sobre o Recurso Educacional que foi implementado neste site.</p>
                             </div>
                         </div>
                     </div>
@@ -23,10 +21,10 @@ export default function About(){
             <section className="py-5 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
-                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="/nist.png" alt="..." /></div>
+                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="" alt="..." /></div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder">Definição</h2>
-                            <p className="lead fw-normal text-muted mb-0">De acordo com o NIST (National Institute of Standards and Technology) dos Estados Unidos, a computação em nuvem necessita de seguir algumas características para ser considerada uma nuvem. As definições declaradas pelo NIST são divididas em 5 categorias:</p>
+                            <h2 className="fw-bolder">Objetivo</h2>
+                            <p className="lead fw-normal text-muted mb-0">Este Objeto de Aprendizagem tem como objetivo, ensinar sobre os conceitos da computação em nuvem e seus funcionamentos teóricos e práticos.</p>
                         </div>
                     </div>
                 </div>
@@ -36,10 +34,10 @@ export default function About(){
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6 order-first order-lg-last">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="/escalabilidade.png" style={{width:'300px'}} alt="..." /></div>
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src="" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder">Escalabilidade</h2>
-                            <p className="lead fw-normal text-muted mb-0">Um consumidor pode provisionar unilateralmente recursos de computação, como tempo de servidor e armazenamento de rede, conforme necessário automaticamente, sem exigir interação humana com cada provedor de serviços.</p>
+                            <h2 className="fw-bolder">Recursos</h2>
+                            <p className="lead fw-normal text-muted mb-0">Neste Objeto de Aprendizagem nós temos vários recursos para auxiliar o usuário a entender melhor o conteúdo como textos, videos e testes.</p>
                         </div>
                     </div>
                 </div>
