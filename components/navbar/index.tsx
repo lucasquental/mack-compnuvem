@@ -1,4 +1,5 @@
 import { DropdownButton } from "../dropdown";
+import { DropdownButtonQuest } from "../dropdownquest";
 
 export function Navbar(){
  
@@ -21,7 +22,17 @@ export function Navbar(){
                    <li className="nav-item ">
                     <DropdownButton title="Saas" aboutUrl="/Saas/about"  functionUrl="/Saas"/>
                   </li>
-                  <li className="nav-item"><a className="nav-link" href="/Questionario">Teste seu Conhecimento</a></li>
+                  <li className="nav-item">
+                    <DropdownButtonQuest 
+                    title="Teste seu conhecimento" 
+                    quest1="/Questionario/modelo-servico"
+                    quest2="/Questionario/conceitos-nuvem"
+                    quest3="/Questionario/quest-amazon"
+                    quest4="/Questionario/quest-azure"
+                    quest5="/Questionario/quest-google"
+                    
+                    />
+                  </li>
                   <li className="nav-item"><a className="nav-link" href="/FAQ">FAQ</a></li>
                   <li className="nav-item"><a className="nav-link" href="/Contact">Contato</a></li>         
               </ul>
