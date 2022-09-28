@@ -62,7 +62,7 @@ export function HomePage(){
                                     
                                 </div>
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
-                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="/About">Sobre a Computação em Nuvem</a>
+                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="/Conceito">Sobre a Computação em Nuvem</a>
                                    
                                 </div>
                             </div>

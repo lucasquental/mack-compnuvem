@@ -11,6 +11,7 @@ export function Navbar(){
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item"><a className="nav-link" href="/">Menu</a></li>
                   <li className="nav-item"><a className="nav-link" href="/About">Sobre</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/Conceito">Conceito</a></li>
                   <li className="nav-item ">
                     <DropdownButton title="Iaas" aboutUrl="/Iaas/about"  functionUrl="/Iaas"/>
                   </li>
