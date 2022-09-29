@@ -33,7 +33,6 @@ export function Navbar(){
                     
                     />
                   </li>
-                  <li className="nav-item"><a className="nav-link" href="/FAQ">FAQ</a></li>
                   <li className="nav-item"><a className="nav-link" href="/Contact">Contato</a></li>         
               </ul>
           </div>
