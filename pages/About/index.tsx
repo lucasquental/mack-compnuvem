@@ -60,7 +60,7 @@ export default function About(){
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6 order-first order-lg-last">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="termos.png" alt="..." /></div>
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src="termos.png" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Termos Chave</h2>
                             <p className="lead fw-normal text-muted mb-0">Computação em Nuvem, Nuvem, Cloud Computing, IaaS, PaaS, SaaS, AWS, GCP, Azure, NIST, Modelos de computação em Nuvem, Elasticidade, Escalabilidade, Amplo acesso a rede, Conjunto de recursos e Serviço Medido, Máquina Virtual, Prime Video, Office 365, Gmail</p>
