@@ -11,7 +11,9 @@ export default function About(){
                         <div className="col-lg-8 col-xxl-6">
                             <div className="text-center my-5">
                                 <h1 className="fw-bolder mb-3">O Recurso Educacional Digital</h1>
-                                <p className="lead fw-normal text-muted mb-4">Nesta página vamos falar um pouco sobre o Recurso Educacional Digital que foi implementado neste site.</p>
+                                <p className="lead fw-normal text-muted mb-4">
+                                    Nesta página vamos falar um pouco sobre o Recurso Educacional Digital que foi implementado neste site.</p>
+
                             </div>
                         </div>
                     </div>
@@ -21,7 +23,7 @@ export default function About(){
             <section className="py-5 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
-                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="objetivo.png" alt="..." /></div>
+                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="objetivo.png" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Objetivo</h2>
                             <p className="lead fw-normal text-muted mb-0">Este Recurso Educacional Digital tem como objetivo, ensinar sobre os conceitos da computação em nuvem e seus funcionamentos teóricos e práticos.</p>
