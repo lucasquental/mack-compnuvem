@@ -8,7 +8,6 @@ export function Footer(){
                         <img alt="Licença Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
                     </a></div>
                     <div className="col-auto">
-                        <a className="link-light small" href="/FAQ">FAQ</a>
                         <span className="text-white mx-1">&middot;</span>
                         <a className="link-light small" href="/Contact">Contato</a>
                     </div>
