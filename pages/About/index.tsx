@@ -23,7 +23,7 @@ export default function About(){
             <section className="py-5 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
-                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="objetivo.png" style={{width:'300px'}} alt="..." /></div>
+                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="objetivo.png" style={{width:'150px'}} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Objetivo</h2>
                             <p className="lead fw-normal text-muted mb-0">Este Recurso Educacional Digital tem como objetivo, ensinar sobre os conceitos da computação em nuvem e seus funcionamentos teóricos e práticos.</p>
@@ -60,7 +60,7 @@ export default function About(){
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6 order-first order-lg-last">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="termos.png" style={{width:'300px'}} alt="..." /></div>
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src="termos.png" alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Termos Chave</h2>
                             <p className="lead fw-normal text-muted mb-0">Computação em Nuvem, Nuvem, Cloud Computing, IaaS, PaaS, SaaS, AWS, GCP, Azure, NIST, Modelos de computação em Nuvem, Elasticidade, Escalabilidade, Amplo acesso a rede, Conjunto de recursos e Serviço Medido, Máquina Virtual, Prime Video, Office 365, Gmail</p>
@@ -72,7 +72,7 @@ export default function About(){
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="Logo1.png" style={{width:'300px'}} alt="..." /></div>
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src="Logo1.png" alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Uso da Nuvem</h2>
                             <p className="lead fw-normal text-muted mb-0">Para utilizar este Recurso Educacional Digital como exemplo de uso da numvem, optamos por fazer a hospedagem do serviço em um seriço de PaaS, o Heroku. Podendo assim acessar o Recurso de qualquer ponto da internet (Celular, Tablet ou Computador) e consumi-lo a qualquer momento.</p>
