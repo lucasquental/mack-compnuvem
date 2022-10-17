@@ -26,7 +26,7 @@ export default function About(){
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="objetivo.png" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Objetivo</h2>
-                            <p className="lead fw-normal text-muted mb-0">Este Recurso Educacional Digital (R.E.D.) tem como objetivo ensinar sobre os conceitos da computação em nuvem, direcionados para modelos teóricos e práticos. Abordando assim temas como IaaS, PaaS, SaaS, NIST e suas utilizações em aplicações reais (AWS, Microsoft Azure e Google Cloud Platform [GCP]).</p>
+                            <p className="lead fw-normal text-muted mb-0">Este Recurso Educacional Digital (RED) tem como objetivo ensinar alguns fundamentos teóricos e práticos da computação em nuvem. Resumidamente, os temas abordados são: IaaS, PaaS, SaaS, NIST e o seu uso em aplicações reais com as plataformas AWS, Microsoft Azure e Google Cloud Platform (GCP). .</p>
                         </div>
                     </div>
                 </div>
@@ -38,8 +38,8 @@ export default function About(){
                         <div className="col-lg-6">
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="recursos.png" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder">Recursos</h2>
-                            <p className="lead fw-normal text-muted mb-0">No R.E.D. temos vários tipos de materiais para auxiliar o usuário a entender melhor o conteúdo como, textos explicativos sobre os diferentes tópicos abordados, vídeos sobre alguns casos de uso da computação em nuvem e testes para avaliar o seu conhecimento sobre o que foi apresentado no recurso.</p>
+                            <h2 className="fw-bolder">Formatos</h2>
+                            <p className="lead fw-normal text-muted mb-0">Neste RED, há materiais no formato texto, vídeo e testes. Os textos foram utilizados para apresentar os diferentes conceitos abordados. Os vídeos destacam alguma aplicação prática da computação em nuvem. Os testes foram feitos com a finalidade de avaliar o conhecimento específico do que foi abordado no RED. </p>
                         </div>
                     </div>
                 </div>
@@ -50,8 +50,8 @@ export default function About(){
                         <div className="col-lg-6  order-first order-lg-last">
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="pessoas.png" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder">Público Destinado</h2>
-                            <p className="lead fw-normal text-muted mb-0">O público-alvo é composto por pessoas que possuam interesse em adquirir conhecimentos gerais e/ou específicos sobre a computação em nuvem; sendo assim nosso conteúdo abrange desde partes conceituais mais básicas como IaaS, PaaS, SaaS e NIST até casos de uso específicos em plataformas distintas como a AWS, Azure e GCP.</p>
+                            <h2 className="fw-bolder">Público-Alvo</h2>
+                            <p className="lead fw-normal text-muted mb-0">O público-alvo é composto por pessoas com interesse em adquirir conhecimentos sobre a computação em nuvem, envolvendo desde conceitos mais básicos como IaaS, PaaS, SaaS e NIST até aplicações práticas específicas em plataformas distintas como a AWS, Azure e GCP. </p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ export default function About(){
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="Logo1.png" alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Destaque</h2>
-                            <p className="lead fw-normal text-muted mb-0">Para utilizar o próprio R.E.D. como exemplo de uso da computação em nuvem, optamos por fazer a hospedagem em um serviço de PaaS, o Heroku. Desta forma é possível utilizar das vantagens que a computação em nuvem traz, como por exemplo: acessar o Recurso de qualquer ponto da internet (Celular, Tablet ou Computador) e consumi-lo a qualquer momento.</p>
+                            <p className="lead fw-normal text-muted mb-0">Este RED é um exemplo de uso da computação em nuvem, pois a sua hospedagem foi realizada em um serviço de PaaS, o Heroku. Com isso, é possível, por exemplo, acessar o RED de qualquer dispositivo com acesso à internet, como Celular, Tablet ou Computador, e consumi-lo a qualquer momento. </p>
                         </div>
                     </div>
                 </div>
