@@ -39,7 +39,7 @@ export default function About(){
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="recursos.png" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Recursos</h2>
-                            <p className="lead fw-normal text-muted mb-0">No R.E.D. temos várias tipos de materiais para auxiliar o usuário a entender melhor o conteúdo como, textos explicativos sobre os diferentes tópicos abordados, videos sobre alguns casos de uso da computação em nuvem e testes para avaliar o seu conhecimento sobre o que foi apresentado no recurso.</p>
+                            <p className="lead fw-normal text-muted mb-0">No R.E.D. temos vários tipos de materiais para auxiliar o usuário a entender melhor o conteúdo como, textos explicativos sobre os diferentes tópicos abordados, vídeos sobre alguns casos de uso da computação em nuvem e testes para avaliar o seu conhecimento sobre o que foi apresentado no recurso.</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ export default function About(){
                         <div className="col-lg-6  order-first order-lg-last">
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="pessoas.png" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder">Publico Destinado</h2>
+                            <h2 className="fw-bolder">Público Destinado</h2>
                             <p className="lead fw-normal text-muted mb-0">O público-alvo é composto por pessoas que possuam interesse em adquirir conhecimentos gerais e/ou específicos sobre a computação em nuvem; sendo assim nosso conteúdo abrange desde partes conceituais mais básicas como IaaS, PaaS, SaaS e NIST até casos de uso específicos em plataformas distintas como a AWS, Azure e GCP.</p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ export default function About(){
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="Logo1.png" alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Destaque</h2>
-                            <p className="lead fw-normal text-muted mb-0">Para utilizar o próprio R.E.D. como exemplo de uso da computação em nuvem, optamos por fazer a hospedagem em um serviço de PaaS, o Heroku. Desta forma é possível utilizar as vantagens a computação em nuvem traz, como por exemplo: acessar o Recurso de qualquer ponto da internet (Celular, Tablet ou Computador) e consumi-lo a qualquer momento.</p>
+                            <p className="lead fw-normal text-muted mb-0">Para utilizar o próprio R.E.D. como exemplo de uso da computação em nuvem, optamos por fazer a hospedagem em um serviço de PaaS, o Heroku. Desta forma é possível utilizar das vantagens que a computação em nuvem traz, como por exemplo: acessar o Recurso de qualquer ponto da internet (Celular, Tablet ou Computador) e consumi-lo a qualquer momento.</p>
                         </div>
                     </div>
                 </div>
