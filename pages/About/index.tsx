@@ -26,7 +26,7 @@ export default function About(){
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="objetivo.png" style={{width:'300px'}} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Objetivo</h2>
-                            <p className="lead fw-normal text-muted mb-0">Este Recurso Educacional Digital (RED) tem como objetivo ensinar alguns fundamentos teóricos e práticos da computação em nuvem. Resumidamente, os temas abordados são: IaaS, PaaS, SaaS, NIST e o seu uso em aplicações reais com as plataformas AWS, Microsoft Azure e Google Cloud Platform (GCP). .</p>
+                            <p className="lead fw-normal text-muted mb-0">Este Recurso Educacional Digital (RED) tem como objetivo ensinar alguns fundamentos teóricos e práticos da computação em nuvem. Resumidamente, os temas abordados são: IaaS, PaaS, SaaS, NIST e o seu uso em aplicações reais com as plataformas AWS, Microsoft Azure e Google Cloud Platform (GCP).</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ export default function About(){
                             <img className="img-fluid rounded mb-5 mb-lg-0" src="Logo1.png" alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Destaque</h2>
-                            <p className="lead fw-normal text-muted mb-0">Este RED é um exemplo de uso da computação em nuvem, pois a sua hospedagem foi realizada em um serviço de PaaS, o Heroku. Com isso, é possível, por exemplo, acessar o RED de qualquer dispositivo com acesso à internet, como Celular, Tablet ou Computador, e consumi-lo a qualquer momento. </p>
+                            <p className="lead fw-normal text-muted mb-0">Este RED é um exemplo de uso da computação em nuvem, pois a sua hospedagem foi realizada em um serviço de PaaS, o Heroku. Com isso, é possível, por exemplo, acessar o RED de qualquer dispositivo com acesso à internet, como Celular, Tablet ou Computador, e consumi-lo a qualquer momento.</p>
                         </div>
                     </div>
                 </div>

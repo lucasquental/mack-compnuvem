@@ -52,7 +52,7 @@ export default function AboutSaas(){
                             <div className="">
                                 <img className="card-img-top" src="/gmail.png" alt="..." />
                                 <p className="text-center mt-2">
-                                Gmail
+                                GMail
                                 </p>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                 </div>

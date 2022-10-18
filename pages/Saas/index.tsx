@@ -15,7 +15,7 @@ export default function Saas() {
                                 <header className="mb-4">
                                 <h1 className="fw-bolder mb-1">SaaS - Software como Serviço</h1>    
                                 <p className="lead fw-normal text-muted fs-5 mb-0">Nesta sessão falaremos um pouco mais sobre o SaaS - Software como Serviço.</p>
-                                <p className="lead fw-normal text-muted fs-5 mb-0">Abordaremos como fazer a utilização de soluções de SaaS como: Office 365, Prime Video e Gmail. Abaixo nós temos videos detalhando como fazer a utilização desses serviços em cada uma de suas respectivas plataformas.</p>
+                                <p className="lead fw-normal text-muted fs-5 mb-0">Abordaremos como fazer a utilização de soluções de SaaS como: Office 365, Prime Video e GMail. Abaixo nós temos videos detalhando como fazer a utilização desses serviços em cada uma de suas respectivas plataformas.</p>
                                 </header>
                     
                                 <section className="mb-5">
@@ -29,9 +29,9 @@ export default function Saas() {
                                     <p className="fs-5 mb-4">Neste video, vemos como fazer uso da solução de SaaS da Microsoft, o Office 365. A solução é um suite para escritório na qual o usuário pode criar e manipular documentos compatíveis a partir de qualquer ponto da internet, a qualquer hora e qualquer lugar.</p>
                                     <p className="fs-5 mb-4"></p>
 
-                                    <h1 className="fw-bolder mb-1">SaaS - Gmail</h1>
+                                    <h1 className="fw-bolder mb-1">SaaS - GMail</h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/RjyqlXbBFnc" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                    <p className="fs-5 mb-4">Neste video, vemos como fazer uso da solução de SaaS da Google, o Gmail. A solução permite a criação de um endereço de e-mail para uso em qualquer lugar da internet de forma gratuita, permitindo o envio e recebimento de e-mails das mais diversas categorias.</p>
+                                    <p className="fs-5 mb-4">Neste video, vemos como fazer uso da solução de SaaS da Google, o GMail. A solução permite a criação de um endereço de e-mail para uso em qualquer lugar da internet de forma gratuita, permitindo o envio e recebimento de e-mails das mais diversas categorias.</p>
                                     <p className="fs-5 mb-4"></p>
                                 </section>
 

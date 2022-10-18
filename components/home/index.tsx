@@ -31,7 +31,7 @@ export function HomePage(){
                                 <div style={{width:'400px'}}>
                                     <div className="feature inline-block p-2 bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <i className="bi bi-building w-[51px]"></i></div>
-                                    <h2 className="h5">IaaS – Infraestrutura como serviço</h2>
+                                    <h2 className="h5">IaaS – Infraestrutura como Serviço</h2>
                                     <p className="mb-0">Na Infraestrutura como serviço, são oferecidas opções de hardware virtual para criação de infraestruturas das mais diversas finalidades.</p>
                                 </div>
                                 <div className="mb-5 mb-md-0 h-100" style={{width:'400px'}}>
@@ -43,8 +43,8 @@ export function HomePage(){
                                 <div className="h-100"style={{width:'400px'}}>
                                     <div className="feature inline-block p-2 bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <i className="bi bi-code-slash w-[51px]"></i></div>
-                                    <h2 className="h5">SaaS – Software como serviço</h2>
-                                    <p className="mb-0">No Software como serviço, temos softwares prontos, com finalidades especificas fazendo com que o usuário final não precise instalar nada na maquina e nem se preocupar com hardware ou software específicos.</p>
+                                    <h2 className="h5">SaaS – Software como Serviço</h2>
+                                    <p className="mb-0">No Software como serviço, temos softwares prontos, com finalidades especificas fazendo com que o usuário final não precise instalar nada na máquina e nem se preocupar com hardware ou software específicos.</p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ export function HomePage(){
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Modelos de Computação em Nuvem</h2>
                             <p className="fs-5 mb-4">Nós temos 3 principais modelos de computação em nuvem, que são distribuídos entre IaaS, PaaS e SaaS.</p>
-                            <p className="fs-5 mb-4">Tendo na base o IaaS, que é a base para criação dos modelos. O PaaS que é um nível onde você não tem mais acesso direto ao IaaS porém ainda pode desenvolver um SaaS. E o SaaS que é o produto final, distribuído para qualquer usuário, no qual o mesmo não possui acesso aos níveis inferiores. </p>
+                            <p className="fs-5 mb-4">Tendo na base o IaaS, que é a base para criação dos modelos. O PaaS, que é um nível onde você não tem mais acesso direto ao IaaS porém ainda pode desenvolver um SaaS. E o SaaS que é o produto final, distribuído para qualquer usuário, no qual o mesmo não possui acesso aos níveis inferiores. </p>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ export function HomePage(){
                         <div className="col-lg-8 col-xl-6">
                             <div className="text-center">
                                 <h2 className="fw-bolder">Saiba mais sobre!</h2>
-                                <p className="lead fw-normal text-muted mb-5">Definições especificas de cada modelo de Computação em Nuvem.</p>
+                                <p className="lead fw-normal text-muted mb-5">Definições específicas de cada modelo de Computação em Nuvem.</p>
                             </div>
                         </div>
                     </div>
