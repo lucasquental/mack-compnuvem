@@ -11,7 +11,7 @@ export function HomePage(){
                                 <h1 className="display-1 fw-bolder mb-2" style={{color:'white'}}>Cloud Computing</h1>
                                 <p className="lead fw-normal mb-4"style={{fontSize:'30px',color:'white'}}>O que é a computação em nuvem, quais os modelos de computação em nuvem e como usá-los?</p>
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="#features">Saber Mais</a>
+                                    {/*<a className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="#features">Saber Mais</a>*/}
                                 
                                 </div>
                             </div>
@@ -21,10 +21,42 @@ export function HomePage(){
                 </div>
             </header>
 
+            <div className="py-5 bg-light">
+                <div className="container px-5 my-5">
+                    <div className="mb-4 d-grid d-sm-flex justify-content-center"><h2 className="fw-bolder mb-0">Do começo!</h2></div>
+                    <div className="row gx-5 justify-content-center">
+                        <div className="col-lg-10 col-xl-7">
+                            <div className="text-center">
+                                <div className="fs-4 mb-4 fst-italic">"A computação em nuvem é definida por 5 características necessárias, sendo elas: Elasticidade, Escalabilidade, Amplo acesso a rede, Conjunto de recursos e Serviço medido"</div>
+                                <div className="d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
+                                    <a className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="/Conceito">Sobre a Computação em Nuvem</a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section className="py-5" id="features">
+                <div className="container px-5 my-5">
+                    <div className="row gx-5">
+                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="/cloudmodels.png" alt="..." /></div>
+                        <div className="col-lg-6">
+                            <h2 className="fw-bolder">Modelos de Computação em Nuvem</h2>
+                            <p className="fs-5 mb-4">Há 3 principais modelos de computação em nuvem, sendo eles: IaaS, PaaS e SaaS</p>
+                            <p className="fs-5 mb-4">Tendo na base o IaaS, que é a base para criação dos modelos. O PaaS, que é um nível onde você não tem mais acesso direto ao IaaS porém ainda pode desenvolver um SaaS. E o SaaS que é o produto final, distribuído para qualquer usuário, no qual o mesmo não possui acesso aos níveis inferiores. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="py-5" id="features">
                 <div className="container px-5 my-5">
                     <div className=" gx-5">
-                        <div className="col-lg-4 mb-5 mb-lg-0"><h2 className="fw-bolder mb-0">Do começo!</h2></div>
                         <div className="col-lg-12" style={{marginTop:'50px'}}>
                             <div className="row">
                                
@@ -52,38 +84,6 @@ export function HomePage(){
                 </div>
             </section>
 
-            <div className="py-5 bg-light">
-                <div className="container px-5 my-5">
-                    <div className="row gx-5 justify-content-center">
-                        <div className="col-lg-10 col-xl-7">
-                            <div className="text-center">
-                                <div className="fs-4 mb-4 fst-italic">"A computação em nuvem é definida por 5 características necessárias, sendo elas: Elasticidade, Escalabilidade, Amplo acesso a rede, Conjunto de recursos e Serviço medido"</div>
-                                <div className="d-flex align-items-center justify-content-center">
-                                    
-                                </div>
-                                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
-                                    <a className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="/Conceito">Sobre a Computação em Nuvem</a>
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <section className="py-5" id="features">
-                <div className="container px-5 my-5">
-                    <div className="row gx-5">
-                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="/cloudmodels.png" alt="..." /></div>
-                        <div className="col-lg-6">
-                            <h2 className="fw-bolder">Modelos de Computação em Nuvem</h2>
-                            <p className="fs-5 mb-4">Nós temos 3 principais modelos de computação em nuvem, que são distribuídos entre IaaS, PaaS e SaaS.</p>
-                            <p className="fs-5 mb-4">Tendo na base o IaaS, que é a base para criação dos modelos. O PaaS, que é um nível onde você não tem mais acesso direto ao IaaS porém ainda pode desenvolver um SaaS. E o SaaS que é o produto final, distribuído para qualquer usuário, no qual o mesmo não possui acesso aos níveis inferiores. </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section className="py-5">
                 <div className="container px-5 my-5">
                     <div className="row gx-5 justify-content-center">
@@ -101,7 +101,7 @@ export function HomePage(){
                                 <div className="card-body p-4">
                                     <div className="badge bg-primary bg-gradient rounded-pill mb-2">IaaS</div>
                                     <a className="text-decoration-none link-dark stretched-link" href="/Iaas/about"><h5 className="card-title mb-3">IaaS – Infraestrutura como serviço</h5></a>
-                                    <p className="card-text mb-0">Seria para empresas que buscam mais autonomia na configuração e gerenciamento de suas aplicações.</p>
+                                    <p className="card-text mb-0">IAAS é direcionado para empresas que buscam mais autonomia na configuração e gerenciamento de suas aplicações.</p>
                                 </div>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div className="d-flex align-items-end justify-content-between">
