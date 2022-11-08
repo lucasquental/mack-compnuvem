@@ -13,27 +13,31 @@ export default function Iaas() {
 
                             <article>                
                                 <header className="mb-4">
-                                <h1 className="fw-bolder mb-1">IaaS - Infraestrutura como Serviço</h1>    
-                                <p className="lead fw-normal text-muted fs-5 mb-0">Nesta sessão falaremos um pouco mais sobre o IaaS - Infraestrutura como Serviço.</p>
-                                <p className="lead fw-normal text-muted fs-5 mb-0">Abordaremos como fazer a criação de Máquinas Virtuais, utilizando a Amazon Web Services (AWS), a Microsoft Azure (Azure) e a Google Cloud Platform (GCP) como plataformas de exemplo. Abaixo nós temos videos detalhando como fazer a criação dessas Máquinas Virtuais em cada uma dessas plataformas.</p>
+                                <h1 className="fw-bolder mb-1">IaaS - Infraestrutura como Serviço</h1>
+                                <p className="lead fw-normal text-muted fs-5 mb-0">A seguir serão apresentados vídeos contendo um caso de uso de IaaS envolvendo a criação de Máquinas Virtuais nas plataformas: Amazon Web Services (AWS),  Microsoft Azure (Azure) e Google Cloud Platform (GCP).</p>
+                                <p className="lead fw-normal text-muted fs-5 mb-0">Na criação da máquina virtual de cada plataformas é detalhada a configuração das características desejadas, tais como: capacidade de processamento, tamanho de memória, tamanho de disco, versão do Sistema Operacional, assinatura, custo e outras configurações menores.</p>
                                 </header>
                     
                                 <section className="mb-5">
                                     <h1 className="fw-bolder mb-1">IaaS - AWS</h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/-9qsbPqfmY8" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>
-                                    <p className="fs-5 mb-4">No video nós temos como fazer a criação e acesso a uma máquina virtual criada na AWS, onde configuramos as características que desejamos que ela possua, como capacidade de processamento, tamanho de memória, tamanho de disco, versão do Sistema Operacional e algumas outras configurações menores</p>
-                                    <p className="fs-5 mb-4"></p>
-                                    
+                                    <p></p>
+
                                     <h1 className="fw-bolder mb-1">IaaS - Azure</h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/rbT4NlT4M9o" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                    <p className="fs-5 mb-4">Neste próximo video temos como fazer a criação e acesso a uma máquina virtual criada na Azure, onde também configuramos características como a capacidade de processamento, tamanho de memória, tamanho de disco, versão do Sistema Operacional e também configuramos algumas opções diferentes como a Assinatura desejada e Grupo de recursos.</p>
-                                    <p className="fs-5 mb-4"></p>
+                                    <p></p>
 
                                     <h1 className="fw-bolder mb-1">IaaS - Google</h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/IYQgCsnzvIw" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                    <p className="fs-5 mb-4">Neste video temos a criação e acesso a uma máquina virtual criada na GCP, onde mais uma vez fizemos a configuração da capacidade de processamento, tamanho de memória, tamanho de disco, versão do Sistema Operacional, região, zona e ainda podemos ver em tempo real a estimativa mensal de quanto a máquina custará em seu todo. </p>
-                                    <p className="fs-5 mb-4"></p>
+                                    <p></p>
                                 </section>
+                                
+                                <p className="lead fw-normal text-muted fs-5 mb-0">Caso houver algum problema, assista os vídeos diretamente pelo YouTube utilizando os botões abaixo:</p>
+                                <a className="btn btn-primary btn-md border border-dark" href="https://www.youtube.com/watch?v=-9qsbPqfmY8" target="_blank" rel="noopener noreferrer">IaaS - AWS</a>
+                                <p></p>
+                                <a className="btn btn-primary btn-md border border-dark" href="https://www.youtube.com/watch?v=rbT4NlT4M9o" target="_blank" rel="noopener noreferrer">IaaS - Azure</a>
+                                <p></p>
+                                <a className="btn btn-primary btn-md border border-dark" href="https://www.youtube.com/watch?v=IYQgCsnzvIw" target="_blank" rel="noopener noreferrer">IaaS - Google</a>
 
 
                             </article>

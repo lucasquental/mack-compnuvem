@@ -13,26 +13,31 @@ export default function Paas() {
 
                             <article>                
                                 <header className="mb-4">
-                                <h1 className="fw-bolder mb-1">PaaS - Plataforma como Serviço</h1>    
-                                <p className="lead fw-normal text-muted fs-5 mb-0">Nesta sessão falaremos um pouco mais sobre o PaaS - Plataforma como Serviço.</p>
-                                <p className="lead fw-normal text-muted fs-5 mb-0">Abordaremos como fazer a utilização de três plataformas de PaaS: a Amazon Web Services (AWS), a Microsoft Azure (Azure) e a Google Cloud Platform (GCP). Abaixo nós temos videos detalhando como fazer a utilização de alguns dos serviços de armazenamento de arquivos e pastas oferecidos por essas plataformas.</p>
+                                <h1 className="fw-bolder mb-1">PaaS - Plataforma como Serviço</h1>
+                                <p className="lead fw-normal text-muted fs-5 mb-0">No vídeo da plataforma AWS, é ilustrado como fazer o uso do S3 envolvendo a criação de um Bucket e o carregamento de arquivos nele. Isso possibilita realizar o armazenamento dos arquivos de forma segura ou para uso posterior.</p>
+                                <p className="lead fw-normal text-muted fs-5 mb-0">Relacionado à plataforma Azure, é apresentado um vídeo no qual se faz a criação de uma conta e de um container para carregamento dos arquivos.</p>
+                                <p className="lead fw-normal text-muted fs-5 mb-0">Por fim, envolvendo à plataforma Google Cloud, é mostrado um vídeo no qual também envolve a criação de um Bucket para o carregamento de arquivos escolhendo-o um nome, a região de armazenamento, classe de armazenamento, controle de acesso ao objeto e outras configurações, incluindo estimativas de custo.”</p>
                                 </header>
                     
                                 <section className="mb-5">
                                     <h1 className="fw-bolder mb-1">PaaS - Amazon S3</h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/N2iKkI0ogas" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>
-                                    <p className="fs-5 mb-4">No video nós vemos como fazer a utilização do S3 da AWS, no qual fazemos a criação do nosso Bucket e carregamos arquivos para ele. Nos trazendo a possibilidade de fazer uso desses arquivos posteriormente na plataforma ou apenas armazená-lo para segurança.</p>
-                                    <p className="fs-5 mb-4"></p>
-                                    
+                                    <p></p>
+
                                     <h1 className="fw-bolder mb-1">PaaS - Azure Contas de Armazenamento</h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/56ptmPsNhhM" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                    <p className="fs-5 mb-4">No video nós vemos como fazer a utilização das Contas de Armazenamento da Azure, no qual fazemos a criação da nossa conta e a criação do nosso container para fazer o carregamento dos arquivos. Nos trazendo a possibilidade de fazer uso desses arquivos posteriormente na plataforma ou apenas armazena-lo para segurança também.</p>
-                                    <p className="fs-5 mb-4"></p>
+                                    <p></p>
 
                                     <h1 className="fw-bolder mb-1">PaaS - Google Cloud Storage</h1>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/V6iO66MnBq0 " title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                                    <p className="fs-5 mb-4">No video nós temos como fazer a utilização do Cloud Storage da Google, na qual escolhemos o nome do nosso bucket, a região de armazenamento, classe de armazenamento, o controle de acesso ao objeto e outras configurações, também vendo estimativas de custo conforme configuramos.</p>
-                                    <p className="fs-5 mb-4"></p>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/V6iO66MnBq0" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                    <p></p>
+
+                                <p className="lead fw-normal text-muted fs-5 mb-0">Caso houver algum problema, assista os vídeos diretamente pelo YouTube utilizando os botões abaixo:</p>
+                                <a className="btn btn-primary btn-md border border-dark" href="https://www.youtube.com/watch?v=N2iKkI0ogas" target="_blank" rel="noopener noreferrer">PaaS - Amazon S3</a>
+                                <p></p>
+                                <a className="btn btn-primary btn-md border border-dark" href="https://www.youtube.com/watch?v=56ptmPsNhhM" target="_blank" rel="noopener noreferrer">PaaS - Azure Contas de Armazenamento</a>
+                                <p></p>
+                                <a className="btn btn-primary btn-md border border-dark" href="https://www.youtube.com/watch?v=V6iO66MnBq0" target="_blank" rel="noopener noreferrer">PaaS - Google Cloud Storage</a>
                                 </section>
 
 
