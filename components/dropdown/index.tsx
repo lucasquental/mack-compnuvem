@@ -17,7 +17,7 @@ export function DropdownButton({title,aboutUrl,functionUrl}:DropdownProps){
         </Dropdown.Toggle>
   
         <Dropdown.Menu>
-          <Dropdown.Item href={aboutUrl}>Sobre</Dropdown.Item>
+          <Dropdown.Item href={aboutUrl}>Conceito</Dropdown.Item>
           <Dropdown.Item href={functionUrl}>Caso de uso</Dropdown.Item>
      
         </Dropdown.Menu>

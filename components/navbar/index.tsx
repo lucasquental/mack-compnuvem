@@ -22,7 +22,7 @@ export function Navbar(){
           <div className={`collapse navbar-collapse ${collapse}`} id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item"><a className="nav-link" href="/">Menu</a></li>
-                  <li className="nav-item"><a className="nav-link" href="/About">Sobre</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/About">Sobre este Recurso</a></li>
                   <li className="nav-item"><a className="nav-link" href="/Conceito">Conceito</a></li>
                   <li className="nav-item ">
                     <DropdownButton title="Iaas" aboutUrl="/Iaas/about"  functionUrl="/Iaas"/>
@@ -35,7 +35,7 @@ export function Navbar(){
                   </li>
                   <li className="nav-item">
                     <DropdownButtonQuest 
-                    title="Teste seu conhecimento" 
+                    title="Testes" 
                     quest1="/Questionario/modelo-servico"
                     quest2="/Questionario/conceitos-nuvem"
                     quest3="/Questionario/quest-amazon"
@@ -44,7 +44,7 @@ export function Navbar(){
                     
                     />
                   </li>
-                  <li className="nav-item"><a className="nav-link" href="/Contact">Contato</a></li>         
+                  <li className="nav-item"><a className="nav-link" href="/Contact">Criação</a></li>         
               </ul>
           </div>
       </div>
