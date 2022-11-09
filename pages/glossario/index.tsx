@@ -11,7 +11,7 @@ export default function About(){
                         <div className="col-lg-8 col-xxl-6">
                             <div className="text-center my-5">
                                 <h1 className="fw-bolder mb-3">Glossário</h1>
-                                <p className="lead fw-normal text-muted mb-4">Aqui temos algumas definições de termos utilizados durante o Recurso Educacional Digital.</p>
+                                <p className="lead fw-normal text-muted mb-4">Definições de termos utilizados durante o Recurso Educacional Digital.</p>
                             </div>
                         </div>
                     </div>
