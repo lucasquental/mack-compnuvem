@@ -8,11 +8,9 @@ export default function About(){
             <header className="py-5">
                 <div className="container px-5">
                     <div className="row justify-content-center">
-                        <div className="col-lg-8 col-xxl-6">
-                            <div className="text-center my-5">
-                                <h1 className="fw-bolder mb-3">Glossário</h1>
-                                <p className="lead fw-normal text-muted mb-4">Aqui temos algumas definições de termos utilizados durante o Recurso Educacional Digital.</p>
-                            </div>
+                        <div className="text-center">
+                            <h1 className="fw-bolder mb-3">Referências</h1>
+                            <p className="lead fw-normal text-muted mb-4">Referências utilizadas para compôr o Recurso Educacional Digital.</p>
                         </div>
                     </div>
                 </div>
@@ -20,12 +18,13 @@ export default function About(){
          
             <section className="py-5 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
-                    <p className="lead fw-normal"><strong><em>IaaS</em> - </strong><em>"Infrastructure as a Service"</em><small></small></p>
-                    <p className="lead fw-normal"><strong><em>PaaS</em> - </strong><em>"Platform as a Service"</em><small></small></p>
-                    <p className="lead fw-normal"><strong><em>SaaS</em> - </strong><em>"Software as a Service"</em><small></small></p>
-                    <p className="lead fw-normal"><strong>Provedores de Nuvem - </strong><em>"Provedores de serviços em nuvem são empresas que estabelecem nuvens públicas, gerenciam nuvens privadas ou oferecem componentes de cloud computing sob demanda (também conhecidos como serviços de cloud computing), como infraestrutura como serviço (IaaS), plataforma como serviço (PaaS) e software como serviço (SaaS)."</em><small> Referência em: https://www.redhat.com/pt-br/topics/cloud-computing/what-are-cloud-providers</small></p>
-                    <p className="lead fw-normal"><strong><em>Bucket</em> - </strong><em>"Um bucket é um contêiner de objetos. Um objeto é um arquivo e qualquer metadado que descreva esse arquivo."</em><small> Referência em: https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/GetStartedWithS3.html</small></p>
-                    <p className="lead fw-normal"><strong><em>Container</em> - </strong><em>"O armazenamento de arquivos é mais como uma pasta pessoal (bucket ou container) com arquivos e subpastas estruturados para envio pelo usuário, funcionando como uma pasta remota conectada ao computador do usuário ou uma instância virtual do servidor."</em><small> Referência em: https://hftecnologia.com.br/armazenamento-em-nuvem-como-funciona/</small></p>   
+                    <p className="lead fw-normal"><strong><em>IaaS, PaaS e SaaS</em> : </strong><em>https://www.gov.br/governodigital/pt-br/estrategias-e-politicas-digitais/computacao-em-nuvem/caracteristicas-essenciais-de-computacao-em-nuvem</em><small></small></p>
+                    <p className="lead fw-normal"><em>https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-iaas/</em></p>
+                    <p className="lead fw-normal"><em>https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-paas/</em></p>
+                    <p className="lead fw-normal"><em>https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-saas/</em></p>
+                    <p className="lead fw-normal"><em>Mahmood, Z. (2015). Cloud Computing: Methods and Practical Approaches (Computer Communications and Networks) (2013th ed.). Springer. p48.</em></p>
+                    <p className="lead fw-normal"><strong><em>Definição de Computação em Nuvem</em> : </strong><em>https://www.nist.gov/publications/nist-definition-cloud-computing</em><small></small></p>
+                    <p className="lead fw-normal"><em>https://www.gov.br/governodigital/pt-br/estrategias-e-politicas-digitais/computacao-em-nuvem/caracteristicas-essenciais-de-computacao-em-nuvem/</em></p>
                 </div>
             </section>
          

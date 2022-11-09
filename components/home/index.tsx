@@ -64,19 +64,19 @@ export function HomePage(){
                                     <div className="feature inline-block p-2 bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <i className="bi bi-building w-[51px]"></i></div>
                                     <h2 className="h5"><em>IaaS</em> – Infraestrutura como Serviço</h2>
-                                    <p className="mb-0">Na Infraestrutura como serviço, são oferecidas opções de <em>hardware</em> virtual para criação de infraestruturas das mais diversas finalidades.</p>
+                                    <p className="mb-0"><em>"Encarregada por disponibilizar toda a infraestrutura necessária para os modelos <em>PaaS</em> e o <em>SaaS</em>. O principal objetivo deste modelo é tornar mais fácil e acessível o fornecimento de recursos, tais como servidores, rede, armazenamento e outros recursos de computação essenciais para construir um ambiente sob demanda, podendo incorporar sistemas operacionais e aplicativos."</em></p>
                                 </div>
                                 <div className="mb-5 mb-md-0 h-100" style={{width:'400px'}}>
                                     <div className="feature inline-block p-2 bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <i className="bi bi-box w-[51px]"></i></div>
                                     <h2 className="h5"><em>PaaS</em> – Plataforma como Serviço</h2>
-                                    <p className="mb-0">Na Plataforma como serviço, são oferecidas soluções práticas de computação em nuvem, uma vez que não é necessário se preocupar com o <em>hardware</em> que funciona por trás da plataforma.</p>
+                                    <p className="mb-0"><em>"Oferece as licenças de <em>software</em>, infraestrutura, manutenção, sistemas de comunicação e tudo o mais necessário para disponibilizar um aplicativo ou site."</em></p>
                                 </div>
                                 <div className="h-100"style={{width:'400px'}}>
                                     <div className="feature inline-block p-2 bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <i className="bi bi-code-slash w-[51px]"></i></div>
                                     <h2 className="h5"><em>SaaS</em> – <em>Software</em> como Serviço</h2>
-                                    <p className="mb-0">No <em>Software</em> como serviço, temos <em>software</em> prontos, com finalidades especificas fazendo com que o usuário final não precise instalar nada na máquina e nem se preocupar com <em>hardware</em> ou <em>software</em> específicos.</p>
+                                    <p className="mb-0"><em>"O fornecedor do <em>software</em> se responsabiliza por toda a estrutura necessária para a disponibilização do sistema (servidores, conectividade, cuidados com segurança da informação), e o cliente utiliza o software via internet."</em></p>
                                 </div>
                             </div>
                         </div>
