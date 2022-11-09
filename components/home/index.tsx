@@ -112,7 +112,7 @@ export function HomePage(){
                         </div>
                         <div className="col-lg-4 mb-5">
                             <div className="card h-100 shadow border-0">
-                                <img className="card-img-top" src="PaaS.png" alt="..." />
+                                <img className="card-img-top" src="paas.png" alt="..." />
                                 <div className="card-body p-4">
                                     <div className="badge bg-primary bg-gradient rounded-pill mb-2"><em>PaaS</em></div>
                                     <a className="text-decoration-none link-dark stretched-link" href="/Paas/about"><h5 className="card-title mb-3"><em>PaaS</em> – Plataforma como Serviço</h5></a>
