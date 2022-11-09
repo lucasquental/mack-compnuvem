@@ -130,7 +130,7 @@ export function HomePage(){
                                 <img className="card-img-top" src="saas.png" alt="..." />
                                 <div className="card-body p-4">
                                     <div className="badge bg-primary bg-gradient rounded-pill mb-2"><em>SaaS</em></div>
-                                    <a className="text-decoration-none link-dark stretched-link" href="/Saas/about"><h5 className="card-title mb-3"><em>SaaS</em> – Software como serviço</h5></a>
+                                    <a className="text-decoration-none link-dark stretched-link" href="/Saas/about"><h5 className="card-title mb-3"><em>SaaS</em> – <em>Software</em> como serviço</h5></a>
                                     <p className="card-text mb-0">A aplicação está pronta para uso e nela não é necessária a compra de licenças para a utilização.</p>
                                 </div>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
