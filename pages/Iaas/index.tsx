@@ -13,21 +13,21 @@ export default function Iaas() {
 
                             <article>                
                                 <header className="mb-4">
-                                <h1 className="fw-bolder mb-1">IaaS - Infraestrutura como Serviço</h1>
-                                <p className="lead fw-normal text-muted fs-5 mb-0">A seguir serão apresentados vídeos contendo um caso de uso de IaaS envolvendo a criação de Máquinas Virtuais nas plataformas: Amazon Web Services (AWS),  Microsoft Azure (Azure) e Google Cloud Platform (GCP).</p>
+                                <h1 className="fw-bolder mb-1"><em>IaaS</em> - Infraestrutura como Serviço</h1>
+                                <p className="lead fw-normal text-muted fs-5 mb-0">A seguir serão apresentados vídeos contendo um caso de uso de <em>IaaS</em> envolvendo a criação de Máquinas Virtuais nas plataformas: <em>Amazon Web Services (AWS),  Microsoft Azure (Azure) e Google Cloud Platform (GCP)</em>.</p>
                                 <p className="lead fw-normal text-muted fs-5 mb-0">Na criação da máquina virtual de cada plataformas é detalhada a configuração das características desejadas, tais como: capacidade de processamento, tamanho de memória, tamanho de disco, versão do Sistema Operacional, assinatura, custo e outras configurações menores.</p>
                                 </header>
                     
                                 <section className="mb-5">
-                                    <h1 className="fw-bolder mb-1">IaaS - AWS</h1>
+                                    <h1 className="fw-bolder mb-1"><em>IaaS - AWS</em></h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/-9qsbPqfmY8" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>
                                     <p></p>
 
-                                    <h1 className="fw-bolder mb-1">IaaS - Azure</h1>
+                                    <h1 className="fw-bolder mb-1"><em>IaaS - Azure</em></h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/rbT4NlT4M9o" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                     <p></p>
 
-                                    <h1 className="fw-bolder mb-1">IaaS - Google</h1>
+                                    <h1 className="fw-bolder mb-1"><em>IaaS - Google</em></h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/IYQgCsnzvIw" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                     <p></p>
                                 </section>

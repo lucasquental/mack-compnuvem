@@ -13,22 +13,22 @@ export default function Paas() {
 
                             <article>                
                                 <header className="mb-4">
-                                <h1 className="fw-bolder mb-1">PaaS - Plataforma como Serviço</h1>
+                                <h1 className="fw-bolder mb-1"><em>PaaS</em> - Plataforma como Serviço</h1>
                                 <p className="lead fw-normal text-muted fs-5 mb-0">No vídeo da plataforma AWS, é ilustrado como fazer o uso do S3 envolvendo a criação de um Bucket e o carregamento de arquivos nele. Isso possibilita realizar o armazenamento dos arquivos de forma segura ou para uso posterior.</p>
                                 <p className="lead fw-normal text-muted fs-5 mb-0">Relacionado à plataforma Azure, é apresentado um vídeo no qual se faz a criação de uma conta e de um container para carregamento dos arquivos.</p>
                                 <p className="lead fw-normal text-muted fs-5 mb-0">Por fim, envolvendo à plataforma Google Cloud, é mostrado um vídeo no qual também envolve a criação de um Bucket para o carregamento de arquivos escolhendo-o um nome, a região de armazenamento, classe de armazenamento, controle de acesso ao objeto e outras configurações, incluindo estimativas de custo.”</p>
                                 </header>
                     
                                 <section className="mb-5">
-                                    <h1 className="fw-bolder mb-1">PaaS - Amazon S3</h1>
+                                    <h1 className="fw-bolder mb-1"><em>PaaS - Amazon S3</em></h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/N2iKkI0ogas" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>
                                     <p></p>
 
-                                    <h1 className="fw-bolder mb-1">PaaS - Azure Contas de Armazenamento</h1>
+                                    <h1 className="fw-bolder mb-1"><em>PaaS - Azure Contas de Armazenamento</em></h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/56ptmPsNhhM" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                     <p></p>
 
-                                    <h1 className="fw-bolder mb-1">PaaS - Google Cloud Storage</h1>
+                                    <h1 className="fw-bolder mb-1"><em>PaaS - Google Cloud Storage</em></h1>
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/V6iO66MnBq0" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                     <p></p>
 

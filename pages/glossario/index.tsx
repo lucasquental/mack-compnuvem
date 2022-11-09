@@ -10,10 +10,8 @@ export default function About(){
                     <div className="row justify-content-center">
                         <div className="col-lg-8 col-xxl-6">
                             <div className="text-center my-5">
-                                <h1 className="fw-bolder mb-3">O que é a computação em nuvem?</h1>
-                                <p className="lead fw-normal text-muted mb-4">
-                                    A computação em nuvem é um conjunto de tecnologias computacionais. Incluindo servidores, armazenamento, bancos de dados, rede, <em>software</em>, análise e inteligência</p>
-                                <a className="btn btn-primary btn-lg border border-dark" href="#scroll-target">Leia mais a respeito</a>
+                                <h1 className="fw-bolder mb-3">Glossário</h1>
+                                <p className="lead fw-normal text-muted mb-4">Aqui temos algumas definições de termos utilizados durante o Recurso Educacional Digital.</p>
                             </div>
                         </div>
                     </div>
@@ -22,13 +20,12 @@ export default function About(){
          
             <section className="py-5 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
-                    <div className="row gx-5 align-items-center">
-                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="/nist.png" alt="..." /></div>
-                        <div className="col-lg-6">
-                            <h2 className="fw-bolder">Definição</h2>
-                            <p className="lead fw-normal text-muted mb-0">De acordo com o <em>NIST (National Institute of Standards and Technology)</em> dos Estados Unidos, a computação em nuvem necessita de seguir algumas características para ser considerada uma nuvem. As definições declaradas pelo <em>NIST</em> são divididas em 5 categorias:</p>
-                        </div>
-                    </div>
+                    <p className="lead fw-normal"><strong><em>IaaS</em> - </strong><em>"Infrastructure as a Service"</em><small></small></p>
+                    <p className="lead fw-normal"><strong><em>PaaS</em> - </strong><em>"Platform as a Service"</em><small></small></p>
+                    <p className="lead fw-normal"><strong><em>SaaS</em> - </strong><em>"Software as a Service"</em><small></small></p>
+                    <p className="lead fw-normal"><strong>Provedores de Nuvem - </strong><em>"Provedores de serviços em nuvem são empresas que estabelecem nuvens públicas, gerenciam nuvens privadas ou oferecem componentes de cloud computing sob demanda (também conhecidos como serviços de cloud computing), como infraestrutura como serviço (IaaS), plataforma como serviço (PaaS) e software como serviço (SaaS)."</em><small> Referência em: https://www.redhat.com/pt-br/topics/cloud-computing/what-are-cloud-providers</small></p>
+                    <p className="lead fw-normal"><strong><em>Bucket</em> - </strong><em>"Um bucket é um contêiner de objetos. Um objeto é um arquivo e qualquer metadado que descreva esse arquivo."</em><small> Referência em: https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/GetStartedWithS3.html</small></p>
+                    <p className="lead fw-normal"><strong><em>Container</em> - </strong><em>"O armazenamento de arquivos é mais como uma pasta pessoal (bucket ou container) com arquivos e subpastas estruturados para envio pelo usuário, funcionando como uma pasta remota conectada ao computador do usuário ou uma instância virtual do servidor."</em><small>Referência em: https://hftecnologia.com.br/armazenamento-em-nuvem-como-funciona/</small></p>   
                 </div>
             </section>
          

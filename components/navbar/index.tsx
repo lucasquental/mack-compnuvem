@@ -44,7 +44,8 @@ export function Navbar(){
                     
                     />
                   </li>
-                  <li className="nav-item"><a className="nav-link" href="/Contact">Criação</a></li>         
+                  <li className="nav-item"><a className="nav-link" href="/Contact">Criação</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/glossario">Glossário</a></li>        
               </ul>
           </div>
       </div>

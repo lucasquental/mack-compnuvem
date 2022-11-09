@@ -11,7 +11,7 @@ export default function AboutIaas(){
                                     <div className="p-4 p-md-5">
                                         <div className="badge bg-primary bg-gradient rounded-pill mb-2">IaaS</div>
                                         <div className="h2 fw-bolder">Infraestrutura como Serviço</div>
-                                        <p>A Infraestrutura como Serviço é um tipo de serviço de computação em nuvem em que a infraestrutura de computação é fornecida para a organização, tendo em vista suas necessidades e requisitos de negócios. Máquinas virtuais (VM), sistemas operacionais, componentes de tempo de execução, rede, armazenamento, dados e aplicativos estão incluídos na infraestrutura de computação. O hardware físico subjacente é fornecido por provedores de nuvem. Os usuários trabalham de acordo com sua infraestrutura de negócios e podem provisionar recursos de nuvem quando necessário. </p>
+                                        <p>A Infraestrutura como Serviço é um tipo de serviço de computação em nuvem em que a infraestrutura de computação é fornecida para a organização, tendo em vista suas necessidades e requisitos de negócios. Máquinas virtuais (<em>VM</em>), sistemas operacionais, componentes de tempo de execução, rede, armazenamento, dados e aplicativos estão incluídos na infraestrutura de computação. O <em>hardware</em> físico subjacente é fornecido por provedores de nuvem. Os usuários trabalham de acordo com sua infraestrutura de negócios e podem provisionar recursos de nuvem quando necessário. </p>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-xl-7"><div className="bg-featured-blog">
@@ -38,7 +38,7 @@ export default function AboutIaas(){
                             <div className="">
                                 <img className="card-img-top" src="/aws.png" alt="..." />
                                 <p className="text-center mt-2">
-                                Amazon Web Services
+                                <em>Amazon Web Services</em>
                                 </p>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                 </div>
@@ -48,7 +48,7 @@ export default function AboutIaas(){
                             <div className="">
                                 <img className="card-img-top" src="/gcp.png" alt="..." />
                                 <p className="text-center mt-2">
-                                Google Cloud Platform
+                                <em>Google Cloud Platform</em>
                                 </p>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                 </div>
@@ -58,7 +58,7 @@ export default function AboutIaas(){
                             <div className="">
                                 <img className="card-img-top" src="/azure.png" alt="..." />
                                 <p className="text-center mt-2">
-                                Microsoft Azure
+                                <em>Microsoft Azure</em>
                                 </p>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                 </div>

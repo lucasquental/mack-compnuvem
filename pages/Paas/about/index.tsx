@@ -9,9 +9,9 @@ export default function AboutPaas(){
                             <div className="row gx-0">
                                 <div className="col-lg-6 col-xl-5 py-lg-5">
                                     <div className="p-4 p-md-5">
-                                        <div className="badge bg-primary bg-gradient rounded-pill mb-2">PaaS</div>
+                                        <div className="badge bg-primary bg-gradient rounded-pill mb-2"><em>PaaS</em></div>
                                         <div className="h2 fw-bolder">Plataforma como Serviço</div>
-                                        <p>A Plataforma como Serviço fornece plataformas para desenvolvimento de aplicativos sem instalação de ferramentas e bibliotecas de desenvolvimento. O provedor de nuvem também fornece redes, armazenamento e servidores. A PaaS ajuda os usuários de negócios a reduzir os custos operacionais e aumentar sua produtividade. Em vez de se concentrar na configuração da infraestrutura, o PaaS permite que seus usuários se concentrem na inovação, que é mais importante. No PaaS, não há pressão no orçamento e nem taxas de licenciamento, pois as ferramentas estão sendo auto-provisionadas a partir da nuvem.</p>
+                                        <p>A Plataforma como Serviço fornece plataformas para desenvolvimento de aplicativos sem instalação de ferramentas e bibliotecas de desenvolvimento. O provedor de nuvem também fornece redes, armazenamento e servidores. A <em>PaaS</em> ajuda os usuários de negócios a reduzir os custos operacionais e aumentar sua produtividade. Em vez de se concentrar na configuração da infraestrutura, o <em>PaaS</em> permite que seus usuários se concentrem na inovação, que é mais importante. No <em>PaaS</em>, não há pressão no orçamento e nem taxas de licenciamento, pois as ferramentas estão sendo auto-provisionadas a partir da nuvem.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-xl-7"><div className="bg-featured-blog" >
@@ -38,7 +38,7 @@ export default function AboutPaas(){
                             <div className="">
                                 <img className="card-img-top" src="/aws.png" alt="..." />
                                 <p className="text-center mt-2">
-                                Amazon Web Services
+                                <em>Amazon Web Services</em>
                                 </p>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                 </div>
@@ -48,7 +48,7 @@ export default function AboutPaas(){
                             <div className="">
                                 <img className="card-img-top" src="/gcp.png" alt="..." />
                                 <p className="text-center mt-2">
-                                Google Cloud Platform
+                                <em>Google Cloud Platform</em>
                                 </p>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                 </div>
@@ -58,7 +58,7 @@ export default function AboutPaas(){
                             <div className="">
                                 <img className="card-img-top" src="/azure.png" alt="..." />
                                 <p className="text-center mt-2">
-                                Microsoft Azure
+                                <em>Microsoft Azure</em>
                                 </p>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                 </div>
