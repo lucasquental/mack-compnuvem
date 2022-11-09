@@ -25,6 +25,9 @@ export default function About(){
                     <p className="lead fw-normal"><em>Mahmood, Z. (2015). Cloud Computing: Methods and Practical Approaches (Computer Communications and Networks) (2013th ed.). Springer. p48.</em></p>
                     <p className="lead fw-normal"><strong><em>Definição de Computação em Nuvem</em> : </strong><em>https://www.nist.gov/publications/nist-definition-cloud-computing</em><small></small></p>
                     <p className="lead fw-normal"><em>https://www.gov.br/governodigital/pt-br/estrategias-e-politicas-digitais/computacao-em-nuvem/caracteristicas-essenciais-de-computacao-em-nuvem/</em></p>
+                    <p className="lead fw-normal"><strong><em>Glossário</em> : </strong><em>https://www.redhat.com/pt-br/topics/cloud-computing/what-are-cloud-providers</em><small></small></p>
+                    <p className="lead fw-normal"><em>https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/GetStartedWithS3.html</em></p>
+                    <p className="lead fw-normal"><em>https://hftecnologia.com.br/armazenamento-em-nuvem-como-funciona/</em></p>
                 </div>
             </section>
          
