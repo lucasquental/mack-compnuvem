@@ -18,7 +18,8 @@ export default function About(){
          
             <section className="py-5 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
-                    <p className="lead fw-normal"><strong><em>IaaS, PaaS e SaaS</em> : </strong><em>https://www.gov.br/governodigital/pt-br/estrategias-e-politicas-digitais/computacao-em-nuvem/caracteristicas-essenciais-de-computacao-em-nuvem</em><small></small></p>
+                    <p className="lead fw-normal"><strong><em>IaaS, PaaS e SaaS</em>:</strong></p>
+                    <p className="lead fw-normal"><em>GOVERNO DO BRASIL. Características essenciais de computação em nuvem. Disponível em: https://www.gov.br/governodigital/pt-br/estrategias-e-politicas-digitais/computacao-em-nuvem/caracteristicas-essenciais-de-computacao-em-nuvem. Acesso em: 9 nov. 2022.</em><small></small></p>
                     <p className="lead fw-normal"><em>https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-iaas/</em></p>
                     <p className="lead fw-normal"><em>https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-paas/</em></p>
                     <p className="lead fw-normal"><em>https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-saas/</em></p>

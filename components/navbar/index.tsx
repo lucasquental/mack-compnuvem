@@ -32,6 +32,7 @@ export function Navbar(){
                    <li className="nav-item ">
                     <DropdownButton title="Saas" aboutUrl="/Saas/about"  functionUrl="/Saas"/>
                   </li>
+                  <li className="nav-item"><a className="nav-link" href="/glossario">Glossário</a></li>
                   <li className="nav-item">
                     <DropdownButtonQuest 
                     title="Testes" 
@@ -43,9 +44,8 @@ export function Navbar(){
                     
                     />
                   </li>
-                  <li className="nav-item"><a className="nav-link" href="/About">Sobre este Recurso</a></li>
-                  <li className="nav-item"><a className="nav-link" href="/glossario">Glossário</a></li>
                   <li className="nav-item"><a className="nav-link" href="/referencias">Referências</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/About">Sobre</a></li>
                   <li className="nav-item"><a className="nav-link" href="/criacao">Criação</a></li>  
               </ul>
           </div>
