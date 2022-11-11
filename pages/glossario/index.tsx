@@ -15,8 +15,7 @@ export default function About(){
                     </div>
                 </div>
             </header>
-         
-            <section className="py-5 bg-light" id="scroll-target">
+            <section className="py-1 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
                     <p className="lead fw-normal"><strong><em>IaaS</em> - </strong><em>"Infrastructure as a Service</em> / Infraestrutura como Serviço"<small></small></p>
                     <p className="lead fw-normal"><strong><em>PaaS</em> - </strong><em>"Platform as a Service</em> / Plataforma como Serviço"<small></small></p>
@@ -26,21 +25,14 @@ export default function About(){
                     <p className="lead fw-normal"><strong><em>Container</em> - </strong><em>"O armazenamento de arquivos é mais como uma pasta pessoal (bucket ou container) com arquivos e subpastas estruturados para envio pelo usuário, funcionando como uma pasta remota conectada ao computador do usuário ou uma instância virtual do servidor."</em><small><em>{/* Referência em: https://hftecnologia.com.br/armazenamento-em-nuvem-como-funciona/*/}</em></small></p>   
                 </div>
             </section>
-         
-            {/*<section className="py-5">
-                <div className="container px-5 my-5">
-                    <div className="row gx-5 align-items-center">
-                        <div className="col-lg-6 order-first order-lg-last">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="/servicomedido.png" style={{width:'300px'}} alt="..." /></div>
-                        <div className="col-lg-6">
-                            <h2 className="fw-bolder">Medição de Serviços</h2>
-                            <p className="lead fw-normal text-muted mb-0">Os sistemas em nuvem controlam e otimizam automaticamente o uso de recursos, aproveitando uma capacidade de medição em um nível de abstração apropriado ao tipo de serviço (por exemplo, armazenamento, processamento, largura de banda e contas de usuário ativas). O uso de recursos pode ser monitorado, controlado e reportado, proporcionando transparência tanto para o provedor quanto para o consumidor do serviço utilizado.</p>
-                        </div>
-                    </div>
+            <div className="container px-5 my-5">
+                <div className="text-end mb-5 mb-xl-0">
+                    <a type="button" className="btn btn-primary border border-dark" href="Questionario/modelo-servico">
+                        Próximo passo: Testes - Modelos como Serviço
+                        <i className="bi bi-arrow-right"></i>
+                    </a>
                 </div>
-            </section>*/}
-           
-            
+            </div>     
         </div>
     )
 }

@@ -2,7 +2,15 @@ export default function AboutPaas(){
 
     return(
         <div>
-           <section className="py-5">
+            <div className="container px-5 my-5">
+                <div className="text-end mb-5 mb-xl-0">
+                    <a type="button" className="btn btn-primary border border-dark" href="/Paas">
+                        Próximo passo: PaaS - Caso de Uso
+                        <i className="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <section>
                 <div className="container px-5">
                     <div className="card border-0 shadow rounded-3 overflow-hidden">
                         <div className="card-body p-0">
@@ -14,14 +22,14 @@ export default function AboutPaas(){
                                         <p>A Plataforma como Serviço fornece plataformas para desenvolvimento de aplicativos sem instalação de ferramentas e bibliotecas de desenvolvimento. O provedor de nuvem também fornece redes, armazenamento e servidores. A <em>PaaS</em> ajuda os usuários de negócios a reduzir os custos operacionais e aumentar sua produtividade. Em vez de se concentrar na configuração da infraestrutura, o <em>PaaS</em> permite que seus usuários se concentrem na inovação, que é mais importante. No <em>PaaS</em>, não há pressão no orçamento e nem taxas de licenciamento, pois as ferramentas estão sendo auto-provisionadas a partir da nuvem.</p>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-xl-7"><div className="bg-featured-blog" >
-                                <img className="card-img-top" src="/paas.png" alt="..." />
+                                    <div className="col-lg-6 col-xl-7"><div className="bg-featured-blog" >
+                                        <img className="card-img-top" src="/paas.png" alt="..." />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
-                 </div>
             </section>
             <section className="py-5 bg-light">
                 <div className="container px-5">
@@ -65,11 +73,13 @@ export default function AboutPaas(){
                             </div>
                         </div>
                     </div>
-                    <div className="text-end mb-5 mb-xl-0">
-                        <a className="text-decoration-none" href="/Paas">
-                            Caso de Uso
-                            <i className="bi bi-arrow-right"></i>
-                        </a>
+                    <div className="container px-5 my-5">
+                        <div className="text-end mb-5 mb-xl-0">
+                            <a type="button" className="btn btn-primary border border-dark" href="/Paas">
+                                Próximo passo: PaaS - Caso de Uso
+                                <i className="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>

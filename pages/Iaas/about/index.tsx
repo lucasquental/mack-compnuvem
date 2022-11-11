@@ -2,7 +2,15 @@ export default function AboutIaas(){
 
     return(
         <div>
-             <section className="py-5">
+            <div className="container px-5 my-5">
+                <div className="text-end mb-5 mb-xl-0">
+                    <a type="button" className="btn btn-primary border border-dark" href="/Iaas">
+                        Próximo passo: IaaS - Caso de Uso
+                        <i className="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <section>
                 <div className="container px-5">
                     <div className="card border-0 shadow rounded-3 overflow-hidden">
                         <div className="card-body p-0">
@@ -14,10 +22,10 @@ export default function AboutIaas(){
                                         <p>A Infraestrutura como Serviço é um tipo de serviço de computação em nuvem em que a infraestrutura de computação é fornecida para a organização, tendo em vista suas necessidades e requisitos de negócios. Máquinas virtuais (<em>VM</em>), sistemas operacionais, componentes de tempo de execução, rede, armazenamento, dados e aplicativos estão incluídos na infraestrutura de computação. O <em>hardware</em> físico subjacente é fornecido por provedores de nuvem. Os usuários trabalham de acordo com sua infraestrutura de negócios e podem provisionar recursos de nuvem quando necessário. </p>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-xl-7"><div className="bg-featured-blog">
-                                    <img className="card-img-top" src="/iaas.png" alt="..." />
+                                    <div className="col-lg-6 col-xl-7"><div className="bg-featured-blog">
+                                        <img className="card-img-top" src="/iaas.png" alt="..." />
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -65,11 +73,13 @@ export default function AboutIaas(){
                             </div>
                         </div>
                     </div>
-                    <div className="text-end mb-5 mb-xl-0">
-                        <a className="text-decoration-none" href="/Iaas">
-                            Caso de Uso
-                            <i className="bi bi-arrow-right"></i>
-                        </a>
+                    <div className="container px-5 my-5">
+                        <div className="text-end mb-5 mb-xl-0">
+                            <a type="button" className="btn btn-primary border border-dark" href="/Iaas">
+                                Próximo passo: IaaS - Caso de Uso
+                                <i className="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>

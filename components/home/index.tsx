@@ -20,7 +20,7 @@ export function HomePage(){
                     </div>
                 </div>
             </header>
-
+            
             <div className="py-5 bg-light">
                 <div className="container px-5 my-5">
                     <div className="mb-4 d-grid d-sm-flex justify-content-center"><h2 className="fw-bolder mb-0">Do começo!</h2></div>
@@ -29,7 +29,6 @@ export function HomePage(){
                             <div className="text-center">
                                 <div className="fs-4 mb-4 fst-italic">"A computação em nuvem é definida por 5 características necessárias, sendo elas: Elasticidade, Escalabilidade, Amplo acesso a rede, Conjunto de recursos e Serviço medido"</div>
                                 <div className="d-flex align-items-center justify-content-center">
-                                    
                                 </div>
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
                                     <a className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="/Conceito">Sobre a Computação em Nuvem</a>
@@ -141,10 +140,14 @@ export function HomePage(){
                             </div>
                         </div>
                     </div>
-           
-                 
+                    <div className="text-end mb-5 mb-xl-0">
+                        <a type="button" className="btn btn-primary border border-dark" href="/Conceito">
+                            Próximo passo: Conceito
+                            <i className="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-            </section>s
-            </>
+            </section>
+        </>
     )
 }

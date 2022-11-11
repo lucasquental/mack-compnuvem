@@ -1,13 +1,17 @@
-
-
 export default function AboutSaas(){
-
 
     return(
         <div>
-             <section className="py-5">
+            <div className="container px-5 my-5">
+                <div className="text-end mb-5 mb-xl-0">
+                    <a type="button" className="btn btn-primary border border-dark" href="/Saas">
+                        Próximo passo: SaaS - Caso de Uso
+                        <i className="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>            
+            <section>
                 <div className="container px-5">
-                    <h1 className="fw-bolder fs-5 mb-4"><em>SaaS</em> – Software como serviço</h1>
                     <div className="card border-0 shadow rounded-3 overflow-hidden">
                         <div className="card-body p-0">
                             <div className="row gx-0">
@@ -18,11 +22,11 @@ export default function AboutSaas(){
                                         <p>O <em>Software</em> como Serviço é um modelo no qual o provedor de serviços em nuvem ou um fornecedor hospeda aplicativos a serem executados na nuvem. <em>Software as a Service</em> tem feito parte do planejamento estratégico de muitas empresas. Muitos dos provedores de serviços oferecem uma interface de programação de aplicativos (API) que expõe os dados e a funcionalidade dos aplicativos aos desenvolvedores. Muitos mecanismos diferentes são usados ​​para manter os dados e o armazenamento seguros. O <em>SaaS</em> fornece implementação rápida para colocar o aplicativo em funcionamento. Inclui manutenção e suporte e o usuário não precisa de nenhum har<em>hardware</em>. <em>Software as a Service (SaaS)</em> é fácil de usar e está beneficiando muitos negócios. É muito mais barato, pois não há custos de compra ou licenciamento.</p>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-xl-7"><div className="bg-featured-blog">
-                                    <img className="card-img-bottom" src="/saas.png" alt="..." />
+                                    <div className="col-lg-6 col-xl-7"><div className="bg-featured-blog">
+                                        <img className="card-img-top" src="/saas.png" alt="..." />
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        </div>
                         </div>
                     </div>
                 </div>
@@ -69,11 +73,13 @@ export default function AboutSaas(){
                             </div>
                         </div>
                     </div>
-                    <div className="text-end mb-5 mb-xl-0">
-                        <a className="text-decoration-none" href="/Saas">
-                            Caso de Uso
-                            <i className="bi bi-arrow-right"></i>
-                        </a>
+                    <div className="container px-5 my-5">
+                        <div className="text-end mb-5 mb-xl-0">
+                            <a type="button" className="btn btn-primary border border-dark" href="/Saas">
+                                Próximo passo: SaaS - Caso de Uso
+                                <i className="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
