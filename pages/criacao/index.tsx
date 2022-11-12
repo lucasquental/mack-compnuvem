@@ -27,7 +27,6 @@ export default function Contact(){
                             <div className="text-center">
                                 <img className="img-fluid rounded-circle mb-4 px-4" src="foto naboa.png" alt="..." />
                                 <h5 className="fw-bolder">Guilherme Naboa</h5>
-                             
                             </div>
                         </div>
                         

@@ -8,13 +8,14 @@ export default function About(){
             <header className="py-5">
                 <div className="container px-5">
                     <div className="row justify-content-center">
-                        <div className="text-center ">
+                        <div className="text-center">
                             <h1 className="fw-bolder mb-3">Glossário</h1>
                             <p className="lead fw-normal text-muted">Definições de termos utilizados durante o Recurso Educacional Digital.</p>
                         </div>
                     </div>
                 </div>
             </header>
+
             <section className="py-1 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
                     <p className="lead fw-normal"><strong><em>IaaS</em> - </strong><em>"Infrastructure as a Service</em> / Infraestrutura como Serviço"<small></small></p>
@@ -25,6 +26,7 @@ export default function About(){
                     <p className="lead fw-normal"><strong><em>Container</em> - </strong><em>"O armazenamento de arquivos é mais como uma pasta pessoal (bucket ou container) com arquivos e subpastas estruturados para envio pelo usuário, funcionando como uma pasta remota conectada ao computador do usuário ou uma instância virtual do servidor."</em><small><em>{/* Referência em: https://hftecnologia.com.br/armazenamento-em-nuvem-como-funciona/*/}</em></small></p>   
                 </div>
             </section>
+            
             <div className="container px-5 my-5">
                 <div className="text-end mb-5 mb-xl-0">
                     <a type="button" className="btn btn-primary border border-dark" href="Questionario/modelo-servico">

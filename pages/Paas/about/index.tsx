@@ -43,34 +43,31 @@ export default function AboutPaas(){
                 <div className="container px-5">
                     <div className="row gx-5">
                         <div className="col-lg-4 mb-5">
-                            <div className="">
+                            <a href="https://aws.amazon.com/" className="link" target="_blank" rel="noopener noreferrer">
                                 <img className="card-img-top" src="/aws.png" alt="..." />
                                 <p className="text-center mt-2">
                                 <em>Amazon Web Services</em>
                                 </p>
-                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                </div>
-                            </div>
+                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0"></div>
+                            </a>
                         </div>
                         <div className="col-lg-4 mb-5">
-                            <div className="">
+                            <a href="https://console.cloud.google.com/" className="link" target="_blank" rel="noopener noreferrer">
                                 <img className="card-img-top" src="/gcp.png" alt="..." />
                                 <p className="text-center mt-2">
                                 <em>Google Cloud Platform</em>
                                 </p>
-                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                </div>
-                            </div>
+                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0"></div>
+                            </a>
                         </div>
                         <div className="col-lg-4 mb-5">
-                            <div className="">
-                                <img className="card-img-top" src="/azure.png" alt="..." />
+                            <a href="https://azure.microsoft.com/" className="link" target="_blank" rel="noopener noreferrer">
+                            <img className="card-img-top" src="/azure.png" alt="..." />
                                 <p className="text-center mt-2">
                                 <em>Microsoft Azure</em>
                                 </p>
-                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                </div>
-                            </div>
+                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0"></div>
+                            </a>
                         </div>
                     </div>
                     <div className="container px-5 my-5">

@@ -43,34 +43,31 @@ export default function AboutSaas(){
                 <div className="container px-5">
                     <div className="row gx-5">
                         <div className="col-lg-4 mb-5">
-                            <div className="">
+                            <a href="https://www.primevideo.com/" className="link" target="_blank" rel="noopener noreferrer">
                                 <img className="card-img-top" src="/primevideo.png" alt="..." />
                                 <p className="text-center mt-2">
                                 <em>Prime Video</em>
                                 </p>
-                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                </div>
-                            </div>
+                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0"></div>
+                            </a>
                         </div>
                         <div className="col-lg-4 mb-5">
-                            <div className="">
+                            <a href="https://mail.google.com/" className="link" target="_blank" rel="noopener noreferrer">
                                 <img className="card-img-top" src="/gmail.png" alt="..." />
                                 <p className="text-center mt-2">
                                 <em>GMail</em>
                                 </p>
-                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                </div>
-                            </div>
+                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0"></div>
+                            </a>
                         </div>
                         <div className="col-lg-4 mb-5">
-                            <div className="">
-                                <img className="card-img-top" src="/office365.png" alt="..." />
+                            <a href="https://www.office.com" className="link" target="_blank" rel="noopener noreferrer">
+                            <img className="card-img-top" src="/office365.png" alt="..." />
                                 <p className="text-center mt-2">
                                 <em>Office 365</em>
                                 </p>
-                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                </div>
-                            </div>
+                                <div className="card-footer p-4 pt-0 bg-transparent border-top-0"></div>
+                            </a>
                         </div>
                     </div>
                     <div className="container px-5 my-5">

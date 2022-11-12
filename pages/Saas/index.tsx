@@ -15,7 +15,7 @@ export default function Saas() {
                     <div className="row gx-5">
                         <article>                
                             <header className="mb-4">
-                            <h1 className="fw-bolder mb-1">SaaS - Software como Serviço</h1>
+                            <h1 className="fw-bolder mb-1"><em>SaaS</em> - Software como Serviço</h1>
                             <p className="lead fw-normal text-muted fs-5 mb-0">A seguir serão apresentados vídeos contendo um caso de uso de algumas soluções de <em>SaaS</em>, tais como: <em>Office 365, Prime Video e GMail</em>.</p>
                             <p className="lead fw-normal text-muted fs-5 mb-0">No vídeo “SaaS – Prime Video”, é apresentado como fazer uso da solução de <em>SaaS</em> para streaming de vídeos da <em>Amazon</em>, o <em>Prime Video</em>. A solução nos fornece um catálogo enorme de opções de filmes e séries para consumo, podendo fazer a pesquisa e acesso desse conteúdo por meio de qualquer aparelho compatível e com acesso à internet.</p>
                             <p className="lead fw-normal text-muted fs-5 mb-0">Em “SaaS – Office 385”, pode-se verificar como fazer uso da solução de <em>SaaS</em> da <em>Microsoft</em>, o <em>Office 365</em>. A solução é um suíte para escritório na qual o usuário pode criar e manipular documentos compatíveis a partir de qualquer ponto da internet, a qualquer hora e qualquer lugar.</p>

@@ -5,15 +5,20 @@ export default function About(){
 
     return(
         <div>
-            <header className="py-5">
+            <div className="container px-4 my-4">
+                <div className="text-end mb-5 mb-xl-0">
+                    <a type="button" className="btn btn-primary border border-dark" href="/criacao">
+                        Próximo passo: Criação
+                        <i className="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <header className="py-1">
                 <div className="container px-5">
                     <div className="row justify-content-center">
-                        <div className="col-lg-8 col-xxl-6">
-                            <div className="text-center my-5">
-                                <h1 className="fw-bolder mb-3">O Recurso Educacional Digital</h1>
-                                <p className="lead fw-normal text-muted mb-4">
-                                    Nesta página vamos falar um pouco sobre o Recurso Educacional Digital que foi implementado.</p>
-                            </div>
+                        <div className="text-center my-5">
+                            <h1 className="fw-bolder mb-3">O Recurso Educacional Digital</h1>
+                            <p className="lead fw-normal text-muted mb-4">Nesta página vamos falar um pouco sobre o Recurso Educacional Digital que foi implementado.</p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +65,8 @@ export default function About(){
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="termos.png" style={{width:'300px'}} alt="..." /></div>
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src="termos.png" style={{width:'300px'}} alt="..." />
+                        </div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Termos Relacionados</h2>
                             <p className="lead fw-normal text-muted mb-0">Computação em Nuvem, Nuvem, <em>Cloud Computing, IaaS, PaaS, SaaS, AWS, GCP, Azure, NIST</em>, Modelos de computação em Nuvem, Elasticidade, Escalabilidade, Amplo acesso a rede, Conjunto de recursos e Serviço Medido, Máquina Virtual, <em>Prime Video</em>, <em>Office 365</em>, <em>Gmail</em></p>
@@ -68,18 +74,29 @@ export default function About(){
                     </div>
                 </div>
             </section>
-            <section className="py-5 bg-light" id="scroll-target">
-                <div className="container px-5 my-5">
+            <section className="py-1 bg-light" id="scroll-target">
+                <div className="container px-4 my-4">
                     <div className="row gx-5 align-items-center">
-                        <div className="col-lg-6  order-first order-lg-last">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src="Logo1.png" alt="..." /></div>
+                        <div className="col-lg-6 order-first order-lg-last">
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src="Logo1.png" style={{width:'600px'}} alt="..." />
+                        </div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Destaque</h2>
                             <p className="lead fw-normal text-muted mb-0">Este RED é um exemplo de uso da computação em nuvem, pois a sua hospedagem foi realizada em um serviço de <em>PaaS</em>, o <em>Heroku</em>. Com isso, é possível, por exemplo, acessar o RED de qualquer dispositivo com acesso à internet, como Celular, Tablet ou Computador, e consumi-lo a qualquer momento.</p>
                         </div>
                     </div>
                 </div>
-            </section>            
+            </section>
+            <section className="py-5 bg-light" id="scroll-target">
+                <div className="container px-5">
+                    <div className="text-end mb-5 mb-xl-0">
+                        <a type="button" className="btn btn-primary border border-dark" href="/criacao">
+                            Próximo passo: Criação
+                            <i className="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>    
         </div>
     )
 }
