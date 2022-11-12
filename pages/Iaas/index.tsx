@@ -20,7 +20,13 @@ export default function Iaas() {
                             <p className="lead fw-normal text-muted fs-5 mb-0">Na criação da máquina virtual de cada plataformas é detalhada a configuração das características desejadas, tais como: capacidade de processamento, tamanho de memória, tamanho de disco, versão do Sistema Operacional, assinatura, custo e outras configurações menores.</p>
                             </header>
                 
-                            <section className="mb-5">
+                            <section className="mb-5" style={{
+                                
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            gap: '12px'
+                                                    }}>
                                 <h1 className="fw-bolder mb-1"><em>IaaS - AWS</em></h1>
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-9qsbPqfmY8" title="YouTube video player" frameBorder={0} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>
                                 <p></p>

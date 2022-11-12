@@ -1,4 +1,25 @@
-.popbuttonQuest{
-    display: flex;
-  justify-content: center;
+.container{
+
+      .popbuttonQuest{
+        display: flex;
+      justify-content: center;
+    }
+
+    button{
+          cursor: pointer;
+   
+    }
+
+    .buttonContainer{
+      display: flex;
+ 
+    justify-content: space-around;
+   
+
+flex-wrap: wrap;
+
+    margin-bottom: 20px;
+         
+   
+    }
 }
