@@ -43,7 +43,21 @@ export function HomePage(){
             <section className="py-5" id="features">
                 <div className="container px-5 my-5">
                     <div className="row gx-5">
-                        <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src="/cloudmodels.png" alt="..." /></div>
+                        <div className="col-lg-6" style={{alignItems: 'center',
+    display: 'flex',
+    flexDirection: 'column'}}>
+                           
+                    <a href="/Saas">
+                        <img src="/piramide_saas.png" alt="" style={{    maxWidth: '271px'}} />
+                        </a>
+                        <a href="/Paas">
+                           <img src="/piramide_paas.png" alt="" style={{maxWidth: '398px'}}/>
+                           </a>
+                           <a href="/Iaas">
+                           <img src="/piramide_iaas.png" alt="" style={{maxWidth: '508px'}} />
+                           </a>
+                         
+                        </div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Modelos de Computação em Nuvem</h2>
                             <p className="fs-5 mb-4">Há 3 principais modelos de computação em nuvem, sendo eles: <em>IaaS</em>, <em>PaaS</em> e <em>SaaS</em></p>
