@@ -20,8 +20,8 @@ export function DropdownButtonQuest({title,quest1,quest2,quest3,quest4,quest5}:D
         </Dropdown.Toggle>
   
         <Dropdown.Menu>
-          <Dropdown.Item href={quest1}>Modelos como serviço</Dropdown.Item>
-          <Dropdown.Item href={quest2}>Conceitos de Nuvem</Dropdown.Item>
+          <Dropdown.Item href={quest1}>Conceitos de Nuvem</Dropdown.Item>
+          <Dropdown.Item href={quest2}>Modelos como serviço</Dropdown.Item>
           <Dropdown.Item href={quest3}>Questionário Amazon</Dropdown.Item>
           <Dropdown.Item href={quest4}>Questionário Azure</Dropdown.Item>
           <Dropdown.Item href={quest5}>Questionário Google</Dropdown.Item>

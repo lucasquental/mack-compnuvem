@@ -8,7 +8,7 @@ export default function Questionario() {
         <div>
     
         <div className={styles.popbuttonQuest}>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScaGdqXl_wydJqAwvraLeA1-yg8oxDqIobXMjU2HSqjC3RW7Q/viewform?embedded=true" width="640" height="3004" frameBorder="0" >Carregando…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGBo3PDYnxuV4QMJGOA1Zx2s5tJ31R7ci4NNAzNJJysDrSCQ/viewform?embedded=true" width="640" height="3004" frameBorder="0" >Carregando…</iframe>
         </div>
         <div>
             <h1 style={{fontSize:'13px',textAlign:'center',marginBottom:'35px'}}>Clique no botão "Subir a página" para verificar o resultado do teste.</h1>
@@ -16,7 +16,7 @@ export default function Questionario() {
         <div className={styles.buttonContainer}>
                 <button style={{display:'flex',alignItems:'center',gap:'10px'}} className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark"
                  onClick={()=>window.scroll(0,0)}>Subir a página <AiOutlineArrowUp/></button>
-                <a  style={{display:'flex',alignItems:'center',gap:'10px'}} className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="conceitos-nuvem">
+                <a  style={{display:'flex',alignItems:'center',gap:'10px'}} className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="quest-amazon">
                    Próximo teste <AiOutlineArrowRight/>
                     </a>
                     </div>

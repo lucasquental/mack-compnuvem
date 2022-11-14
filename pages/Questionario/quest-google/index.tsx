@@ -16,7 +16,9 @@ export default function Questionario() {
           <div className={styles.buttonContainer}>
           <button style={{display:'flex',alignItems:'center',gap:'10px'}} className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark"
           onClick={()=>window.scroll(0,0)}>Subir a página <AiOutlineArrowUp/></button>
-         
+          <a  style={{display:'flex',alignItems:'center',gap:'10px'}} className="btn btn-primary btn-lg px-4 me-sm-3 border border-dark" href="/referencias">
+            Próximo passo: Referências<AiOutlineArrowRight/>
+            </a>
               </div>
               </div>
     )

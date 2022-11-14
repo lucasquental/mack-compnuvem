@@ -36,8 +36,8 @@ export function Navbar(){
                   <li className="nav-item">
                     <DropdownButtonQuest 
                     title="Testes" 
-                    quest1="/Questionario/modelo-servico"
-                    quest2="/Questionario/conceitos-nuvem"
+                    quest1="/Questionario/conceitos-nuvem"
+                    quest2="/Questionario/modelo-servico"
                     quest3="/Questionario/quest-amazon"
                     quest4="/Questionario/quest-azure"
                     quest5="/Questionario/quest-google"

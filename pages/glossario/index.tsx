@@ -29,8 +29,8 @@ export default function About(){
             
             <div className="container px-5 my-5">
                 <div className="text-end mb-5 mb-xl-0">
-                    <a type="button" className="btn btn-primary border border-dark" href="Questionario/modelo-servico">
-                        Próximo passo: Testes - Modelos como Serviço
+                    <a type="button" className="btn btn-primary border border-dark" href="Questionario/conceitos-nuvem">
+                        Próximo passo: Testes - Conceitos de Nuvem
                         <i className="bi bi-arrow-right"></i>
                     </a>
                 </div>
