@@ -82,7 +82,7 @@ export default function About(){
                         </div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder">Destaque</h2>
-                            <p className="lead fw-normal text-muted mb-0">Este RED é um exemplo de uso da computação em nuvem, pois a sua hospedagem foi realizada em um serviço de <em>PaaS</em>, o <em>Heroku</em>. Com isso, é possível, por exemplo, acessar o RED de qualquer dispositivo com acesso à internet, como Celular, Tablet ou Computador, e consumi-lo a qualquer momento.</p>
+                            <p className="lead fw-normal text-muted mb-0">Este RED é um exemplo de uso da computação em nuvem, pois a sua hospedagem foi realizada em dois serviços de <em>PaaS</em>, o <em>Heroku</em> e o <em>Netlify</em>. Com isso, é possível, por exemplo, acessar o RED de qualquer dispositivo com acesso à internet, como Celular, Tablet ou Computador, e consumi-lo a qualquer momento.</p>
                         </div>
                     </div>
                 </div>
