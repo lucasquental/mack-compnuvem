@@ -47,13 +47,13 @@ export function HomePage(){
     display: 'flex',
     flexDirection: 'column'}}>
                            
-                    <a href="/Saas">
+                    <a href="/Saas/about">
                         <img src="/piramide_saas.png" alt="" style={{    maxWidth: '271px'}} />
                         </a>
-                        <a href="/Paas">
+                        <a href="/Paas/about">
                            <img src="/piramide_paas.png" alt="" style={{maxWidth: '398px'}}/>
                            </a>
-                           <a href="/Iaas">
+                           <a href="/Iaas/about">
                            <img src="/piramide_iaas.png" alt="" style={{maxWidth: '508px'}} />
                            </a>
                          
